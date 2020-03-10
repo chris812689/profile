@@ -1,0 +1,9 @@
+img{
+    border-radius: 50%;
+    border:2px gray solid;
+    height: 100px;
+    width: 100px;
+}
+.row{
+    width:100%;
+}
