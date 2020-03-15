@@ -9,8 +9,12 @@ import { ProfileComponent } from './profile/profile.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { MeComponent } from './about/me/me.component';
-import { EducationComponent } from './about/education/education.component';
+
 import { SkillsComponent } from './about/skills/skills.component';
+import { CompletedComponent } from './about/education/completed/completed.component';
+import { UncompletedComponent } from './about/education/uncompleted/uncompleted.component';
+import { EducationComponent } from './about/education/education.component';
+
 
 @NgModule({
   declarations: [
@@ -20,8 +24,11 @@ import { SkillsComponent } from './about/skills/skills.component';
     AboutComponent,
     FooterComponent,
     MeComponent,
+    SkillsComponent,
+    CompletedComponent,
+    UncompletedComponent,
     EducationComponent,
-    SkillsComponent
+
   ],
   imports: [
     BrowserModule,
@@ -29,6 +36,7 @@ import { SkillsComponent } from './about/skills/skills.component';
 
     MaterialModule,
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -1,10 +1,37 @@
 .contact{
     background: #446DF6;
-    color:white
+    color:white;
+   
+}
+
+#contact{
+    color: black;
 }
 
 .footer{
     background: #000;
     color: white;
 
+}
+.fab,.far{
+    font-size: 2rem;
+}
+h4{
+    margin-top: 5px;
+}
+h4 + a{
+    margin-right: 5px;
+}
+.row{
+    width:100%;
+    padding:0;
+    margin: 0;
+
+}
+span{
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    bottom: 2px;
+    background-color: white;
 }

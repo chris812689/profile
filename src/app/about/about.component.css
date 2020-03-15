@@ -3,7 +3,12 @@ img{
     border:2px gray solid;
     height: 100px;
     width: 100px;
+    display: block;
 }
 .row{
     width:100%;
+}
+.header, .title{
+    display: flex;
+    justify-content: center;
 }
